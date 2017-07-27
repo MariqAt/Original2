@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/mimi"
+    tools:context="com.ittalents.mybazaroriginal.MainActivity">
+
+   <Button
+       android:id="@+id/button_login_as_seller"
+       android:layout_width="match_parent"
+       android:text="Login as Seller"
+       android:layout_height="0dp"
+       android:layout_marginTop="30dp"
+       android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/button_login_as_client"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Login as Client"
+        android:layout_weight="2"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/button_register_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Registar a new account" />
+
+    <Button
+        android:id="@+id/start_timer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Show Alert Dialog"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/pause_timer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Pause"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/button_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Start Timer"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>

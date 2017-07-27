@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.ittalents.mybazaroriginal.RegisterFormActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Username"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/pass_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/pass2_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Cpnfirm password"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/seller_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Продавач"/>
+
+        <RadioButton
+            android:id="@+id/clients_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Клиент"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/registration_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_marginTop="30dp
+"
+        />
+
+</LinearLayout>
